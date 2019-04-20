@@ -1,0 +1,12 @@
+*_temp
+logs
+targets
+*.log
+log
+bin
+*.exe
+*.png
+*.bmp
+*.zip
+*.nib
+*.jpg
