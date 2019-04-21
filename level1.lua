@@ -8,7 +8,7 @@ local composer = require( "composer" )
 local scene = composer.newScene()
 
 -- include Corona's "physics" library
-local physics = require "physics"
+-- local physics = require "physics"
 
 --------------------------------------------
 
@@ -34,18 +34,18 @@ function scene:create( event )
 	-- the physical screen will likely be a different shape than our defined content area
 	-- since we are going to position the background from it's top, left corner, draw the
 	-- background at the real top, left corner.
-	local background = display.newRect( display.screenOriginX, display.screenOriginY, screenW, screenH )
-	background.anchorX = 0 
-	background.anchorY = 0
-	background:setFillColor( .5 )
+	-- local background = display.newRect( display.screenOriginX, display.screenOriginY, screenW, screenH )
+	-- background.anchorX = 0 
+	-- background.anchorY = 0
+	-- background:setFillColor( .5 )
 	
 	-- make a crate (off-screen), position it, and rotate slightly
-	local crate = display.newImageRect( "crate.png", 90, 90 )
-	crate.x, crate.y = 160, -100
-	crate.rotation = 15
+	-- local crate = display.newImageRect( "crate.png", 90, 90 )
+	-- crate.x, crate.y = 160, -100
+	-- crate.rotation = 15
 	
-	-- add physics to the crate
-	physics.addBody( crate, { density=1.0, friction=0.3, bounce=0.3 } )
+	-- -- add physics to the crate
+	-- physics.addBody( crate, { density=1.0, friction=0.3, bounce=0.3 } )
 	
 	-- create a grass object and add physics (with custom shape)
 	local grass = display.newImageRect( "grass.png", screenW, 82 )
@@ -59,7 +59,7 @@ function scene:create( event )
 	physics.addBody( grass, "static", { friction=0.3, shape=grassShape } )
 	
 	-- all display objects must be inserted into group
-	sceneGroup:insert( background )
+	-- sceneGroup:insert( background )
 	sceneGroup:insert( grass)
 	sceneGroup:insert( crate )
 end

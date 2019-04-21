@@ -3,6 +3,8 @@
 -- @Last Modified by:   maolong.he@gmail.com
 -- @Last Modified time: 2019-04-20 15:16:26
 
+local Prototype = require( "CoronaPrototype" )
+
 local msPerFrame = 160
 
 local poseSequences = {
@@ -44,30 +46,28 @@ local poses = {
   "spc"
 }
 
-local animation = {}
+local Model = Prototype:newClass( "Model" )
 
-function animation.getPosePath(t, npc_index)
+function getPosePath(t, npc_index)
   return string.format("%s/unit_%s/%d.png", resourceRoot, t, npc_index)
 end
 
-
-local animationPlay = {}
-function animationPlay:playAttack()
+function Model:playAttack()
   self.atk.isVisible = true
   self.atk:play()
 end
 
-function animationPlay:playMove()
+function Model:playMove()
   self.mov.isVisible = true
   self.mov:play()
 end
 
-function animationPlay:playSpc()
+function Model:playSpc()
   self.spc.isVisible = true
   self.spc:play()
 end
 
-function animationPlay:setPos(x, y)
+function Model:setPos(x, y)
    self.atk.x = x
    self.atk.y = y
 
@@ -79,19 +79,16 @@ function animationPlay:setPos(x, y)
 end
 
 
-function animation.loadModel(npc_index)
-  local result = {}
-
+function Model:initialize(params)
+  local npc_index = params.npc_index
+  
   for _, v in ipairs(poses) do
-    local sheet = graphics.newImageSheet(animation.getPosePath(v, npc_index), poseOptions[v])
+    local sheet = graphics.newImageSheet(getPosePath(v, npc_index), poseOptions[v])
     local sprite = display.newSprite(sheet, poseSequences[v])
     sprite.isVisible = false
     result[v] = sprite
   end
-
-  setmetatable(result, {__index=animationPlay})
-  return result
 end
 
 
-return animation
+return Model
