@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T02:35:23.597Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="XuATN8kWuBWtiUDVWs1O" version="14.9.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-11T02:37:20.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="86ngp4S1ySi90xpjCDiH" version="14.9.4" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -389,22 +389,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mT_MY56s4w_hLMXPx0Lx-0" value="" style="group;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" connectable="0" parent="nyPqzcYUhq-mVP9IrJE--1">
-          <mxGeometry x="414" y="478" width="200" height="110" as="geometry" />
+          <mxGeometry x="414" y="478" width="186" height="110" as="geometry" />
         </mxCell>
         <mxCell id="mT_MY56s4w_hLMXPx0Lx-1" value="" style="group;fillColor=none;" vertex="1" connectable="0" parent="mT_MY56s4w_hLMXPx0Lx-0">
-          <mxGeometry width="200.00000000000006" height="110" as="geometry" />
+          <mxGeometry width="186.00000000000006" height="110" as="geometry" />
         </mxCell>
         <mxCell id="mT_MY56s4w_hLMXPx0Lx-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" vertex="1" parent="mT_MY56s4w_hLMXPx0Lx-1">
-          <mxGeometry width="200.00000000000006" height="109.99999999999996" as="geometry" />
-        </mxCell>
-        <mxCell id="mT_MY56s4w_hLMXPx0Lx-18" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;instance-n" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pv" vertex="1" parent="mT_MY56s4w_hLMXPx0Lx-1">
-          <mxGeometry x="130" y="41" width="50" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="mT_MY56s4w_hLMXPx0Lx-10" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;instance-1" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pv" vertex="1" parent="mT_MY56s4w_hLMXPx0Lx-1">
-          <mxGeometry x="40" y="41" width="50" height="48" as="geometry" />
+          <mxGeometry width="186.00000000000006" height="109.99999999999996" as="geometry" />
         </mxCell>
         <mxCell id="mT_MY56s4w_hLMXPx0Lx-3" value="redis-集群(Tendis/Pika)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mT_MY56s4w_hLMXPx0Lx-1">
-          <mxGeometry x="10" width="140" height="26.47" as="geometry" />
+          <mxGeometry x="9.3" width="130.20000000000002" height="26.47" as="geometry" />
+        </mxCell>
+        <mxCell id="mT_MY56s4w_hLMXPx0Lx-18" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;instance-n" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pv" vertex="1" parent="mT_MY56s4w_hLMXPx0Lx-1">
+          <mxGeometry x="103" y="42" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mT_MY56s4w_hLMXPx0Lx-10" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;instance-1" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pv" vertex="1" parent="mT_MY56s4w_hLMXPx0Lx-1">
+          <mxGeometry x="33" y="42" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="mT_MY56s4w_hLMXPx0Lx-25" value="" style="group;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" connectable="0" parent="nyPqzcYUhq-mVP9IrJE--1">
           <mxGeometry x="414" y="349" width="186" height="110" as="geometry" />
