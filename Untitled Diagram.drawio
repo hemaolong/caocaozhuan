@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T02:41:15.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="CKS2B6drr96YBLAOyBSW" version="14.9.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-11T02:42:11.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="hYqNJK15zPTGtHbWb5cS" version="14.9.4" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -502,23 +502,27 @@
         <mxCell id="mT_MY56s4w_hLMXPx0Lx-100" value="UDP-服务：实时战斗等" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mT_MY56s4w_hLMXPx0Lx-98">
           <mxGeometry x="10" width="140" height="26.47" as="geometry" />
         </mxCell>
+        <mxCell id="mT_MY56s4w_hLMXPx0Lx-108" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;FLEET" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=rs" vertex="1" parent="mT_MY56s4w_hLMXPx0Lx-98">
+          <mxGeometry x="52" y="24.47" width="50" height="48" as="geometry" />
+        </mxCell>
         <mxCell id="mT_MY56s4w_hLMXPx0Lx-101" value="" style="group" vertex="1" connectable="0" parent="mT_MY56s4w_hLMXPx0Lx-97">
           <mxGeometry x="12.5" y="21" width="125" height="108" as="geometry" />
         </mxCell>
         <mxCell id="mT_MY56s4w_hLMXPx0Lx-102" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;instance-1" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod" vertex="1" parent="mT_MY56s4w_hLMXPx0Lx-101">
           <mxGeometry y="60" width="50" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="mT_MY56s4w_hLMXPx0Lx-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.005;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mT_MY56s4w_hLMXPx0Lx-101" source="mT_MY56s4w_hLMXPx0Lx-104" target="mT_MY56s4w_hLMXPx0Lx-102">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mT_MY56s4w_hLMXPx0Lx-104" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;SLB" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=ing" vertex="1" parent="mT_MY56s4w_hLMXPx0Lx-101">
-          <mxGeometry x="40" width="50" height="48" as="geometry" />
+        <mxCell id="mT_MY56s4w_hLMXPx0Lx-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.005;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mT_MY56s4w_hLMXPx0Lx-101" target="mT_MY56s4w_hLMXPx0Lx-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40.25" y="30.24000000000001" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mT_MY56s4w_hLMXPx0Lx-105" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;instance-n" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod" vertex="1" parent="mT_MY56s4w_hLMXPx0Lx-101">
           <mxGeometry x="75" y="60" width="50" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="mT_MY56s4w_hLMXPx0Lx-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mT_MY56s4w_hLMXPx0Lx-101" source="mT_MY56s4w_hLMXPx0Lx-104" target="mT_MY56s4w_hLMXPx0Lx-105">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="mT_MY56s4w_hLMXPx0Lx-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mT_MY56s4w_hLMXPx0Lx-101" target="mT_MY56s4w_hLMXPx0Lx-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="89.75" y="30.24000000000001" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
